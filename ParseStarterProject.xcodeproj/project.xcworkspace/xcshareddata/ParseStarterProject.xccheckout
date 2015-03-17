@@ -10,31 +10,31 @@
 	<string>ParseStarterProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7996A2D5866525A665A482FE0EFCA8F987E6C582</key>
-		<string>https://github.com/tonytypes/MOB-NYC-1.git</string>
+		<key>930F4C73D70C3864006EB96E24101104006F37B2</key>
+		<string>https://github.com/tonytypes/pollee.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Assesments/Final Project/parse-starter-project-1.6.3/ParseSwiftStarterProject/ParseStarterProject.xcodeproj</string>
+	<string>ParseStarterProject.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7996A2D5866525A665A482FE0EFCA8F987E6C582</key>
-		<string>../../../../../..</string>
+		<key>930F4C73D70C3864006EB96E24101104006F37B2</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/tonytypes/MOB-NYC-1.git</string>
+	<string>https://github.com/tonytypes/pollee.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7996A2D5866525A665A482FE0EFCA8F987E6C582</string>
+	<string>930F4C73D70C3864006EB96E24101104006F37B2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7996A2D5866525A665A482FE0EFCA8F987E6C582</string>
+			<string>930F4C73D70C3864006EB96E24101104006F37B2</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MOB-NYC-1</string>
+			<string>ParseSwiftStarterProject</string>
 		</dict>
 	</array>
 </dict>

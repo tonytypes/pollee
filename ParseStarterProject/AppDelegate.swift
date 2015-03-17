@@ -5,7 +5,8 @@
 //
 
 import UIKit
-
+import Fabric
+import Crashlytics
 import Parse
 
 // If you want to use any of the UI components, uncomment this line
@@ -24,6 +25,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //--------------------------------------
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        Fabric.with([Crashlytics()])
+        
         // Enable storing and querying data from Local Datastore. 
         // Remove this line if you don't want to use Local Datastore features or want to use cachePolicy.
         Parse.enableLocalDatastore()
