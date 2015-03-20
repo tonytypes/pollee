@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		198C322E1ABA547300AB6722 /* RetrieveTodaysQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C322D1ABA547300AB6722 /* RetrieveTodaysQuestion.swift */; };
+		198C32331ABA565800AB6722 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C32321ABA565800AB6722 /* BodyView.swift */; };
 		19D584681AB6A5F600A56EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D584671AB6A5F600A56EF7 /* ViewController.swift */; };
 		19D5846A1AB6A5FE00A56EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D584691AB6A5FE00A56EF7 /* Main.storyboard */; };
 		19D5846C1AB6A60E00A56EF7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5846B1AB6A60E00A56EF7 /* HeaderView.swift */; };
@@ -16,6 +18,9 @@
 		19D584751AB6BDED00A56EF7 /* RetrieveResultOfYesterday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D584741AB6BDED00A56EF7 /* RetrieveResultOfYesterday.swift */; };
 		19D584791AB7AAC300A56EF7 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D584771AB7AAC300A56EF7 /* Crashlytics.framework */; };
 		19D5847A1AB7AAC300A56EF7 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D584781AB7AAC300A56EF7 /* Fabric.framework */; };
+		19E564FB1ABB876400556A1A /* UIKitextensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E564FA1ABB876400556A1A /* UIKitextensions.swift */; };
+		19E564FF1ABB98E200556A1A /* QuestionBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E564FE1ABB98E200556A1A /* QuestionBodyView.swift */; };
+		19E565011ABB990600556A1A /* QuestionBodyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19E565001ABB990600556A1A /* QuestionBodyView.xib */; };
 		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
 		81BA81521A49DA1800E65899 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BA81511A49DA1800E65899 /* Images.xcassets */; };
 		81BA81701A49DB6800E65899 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA816B1A49DB6800E65899 /* Bolts.framework */; };
@@ -31,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		198C322D1ABA547300AB6722 /* RetrieveTodaysQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveTodaysQuestion.swift; sourceTree = "<group>"; };
+		198C32321ABA565800AB6722 /* BodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
 		19D584671AB6A5F600A56EF7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19D584691AB6A5FE00A56EF7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		19D5846B1AB6A60E00A56EF7 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		19D584741AB6BDED00A56EF7 /* RetrieveResultOfYesterday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveResultOfYesterday.swift; sourceTree = "<group>"; };
 		19D584771AB7AAC300A56EF7 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		19D584781AB7AAC300A56EF7 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		19E564FA1ABB876400556A1A /* UIKitextensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitextensions.swift; sourceTree = "<group>"; };
+		19E564FE1ABB98E200556A1A /* QuestionBodyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBodyView.swift; sourceTree = "<group>"; };
+		19E565001ABB990600556A1A /* QuestionBodyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionBodyView.xib; sourceTree = "<group>"; };
 		81BA81451A49DA1800E65899 /* ParseStarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseStarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA81491A49DA1800E65899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		198C322F1ABA558A00AB6722 /* Body Files */ = {
+			isa = PBXGroup;
+			children = (
+				198C32321ABA565800AB6722 /* BodyView.swift */,
+				19E564FE1ABB98E200556A1A /* QuestionBodyView.swift */,
+				19E565001ABB990600556A1A /* QuestionBodyView.xib */,
+				19E564FA1ABB876400556A1A /* UIKitextensions.swift */,
+			);
+			name = "Body Files";
+			sourceTree = "<group>";
+		};
 		19D584711AB6A66E00A56EF7 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,12 +134,14 @@
 			isa = PBXGroup;
 			children = (
 				19D584721AB6A85000A56EF7 /* CheckForResponse.swift */,
+				19D584741AB6BDED00A56EF7 /* RetrieveResultOfYesterday.swift */,
+				198C322D1ABA547300AB6722 /* RetrieveTodaysQuestion.swift */,
 				19D584691AB6A5FE00A56EF7 /* Main.storyboard */,
 				19D584671AB6A5F600A56EF7 /* ViewController.swift */,
-				19D584741AB6BDED00A56EF7 /* RetrieveResultOfYesterday.swift */,
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA81511A49DA1800E65899 /* Images.xcassets */,
 				19D584711AB6A66E00A56EF7 /* Header Files */,
+				198C322F1ABA558A00AB6722 /* Body Files */,
 				81BA81481A49DA1800E65899 /* Supporting Files */,
 			);
 			path = ParseStarterProject;
@@ -220,6 +243,7 @@
 			files = (
 				19D584701AB6A61F00A56EF7 /* ResultHeaderView.xib in Resources */,
 				81BA81521A49DA1800E65899 /* Images.xcassets in Resources */,
+				19E565011ABB990600556A1A /* QuestionBodyView.xib in Resources */,
 				19D5846A1AB6A5FE00A56EF7 /* Main.storyboard in Resources */,
 				19D5846E1AB6A61700A56EF7 /* QuestionHeaderView.xib in Resources */,
 			);
@@ -263,10 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19D584681AB6A5F600A56EF7 /* ViewController.swift in Sources */,
+				198C322E1ABA547300AB6722 /* RetrieveTodaysQuestion.swift in Sources */,
 				19D584731AB6A85000A56EF7 /* CheckForResponse.swift in Sources */,
+				19E564FB1ABB876400556A1A /* UIKitextensions.swift in Sources */,
+				19E564FF1ABB98E200556A1A /* QuestionBodyView.swift in Sources */,
 				19D5846C1AB6A60E00A56EF7 /* HeaderView.swift in Sources */,
 				19D584751AB6BDED00A56EF7 /* RetrieveResultOfYesterday.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
+				198C32331ABA565800AB6722 /* BodyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +385,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -364,6 +394,7 @@
 				INFOPLIST_FILE = ParseStarterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseStarterProject/ParseStarterProject-Bridging-Header.h";
 			};
 			name = Debug;
@@ -373,6 +404,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -380,6 +413,7 @@
 				INFOPLIST_FILE = ParseStarterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseStarterProject/ParseStarterProject-Bridging-Header.h";
 			};
 			name = Release;

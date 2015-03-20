@@ -12,13 +12,15 @@ import Parse
 class ViewController: UIViewController {
 
     @IBOutlet weak var headerView: HeaderView!
+    @IBOutlet weak var bodyView: BodyView!
+
     
     // Below 2 vars will be omitted once they can be determined with Parse.com, maybe in the same query to Result Parse class?
-    var todaysQuestionId: String = "SfjfegusPV"
-    var resultOfYesterdayId: String = "SfjfegusPV" // The result that is scheduled for display today
+    var resultOfYesterdayId: String = "SfjfegusPV" // This is the question objectId (referenced in the "answeredFor" column) of the result object. It's the result that is scheduled for display today
+//    var todaysQuestionId: String = "SfjfegusPV" // To test result view, I've made todaysQuestionId same as resultOfYesterdayId
+    var todaysQuestionId: String = "BPd15JqiPt"
     
-    // Below will be omitted once viewToShow is determined with Parse.com
-    var viewToShow: String? // = "Result" // either "Question" or "Result"
+    var viewToShow: String? // Determined by CheckForResponse method
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +33,8 @@ class ViewController: UIViewController {
                 self.viewToShow = "Question"
             }
             if let vts = self.viewToShow {
-                self.headerView.loadHeaderView(vts, todaysQuestionId: self.todaysQuestionId, resultOfYesterday: self.resultOfYesterdayId)
+                self.headerView.loadHeaderView(vts, todaysQuestionId: self.todaysQuestionId, resultOfYesterdayId: self.resultOfYesterdayId)
+                self.bodyView.loadBodyView(vts, todaysQuestionId: self.todaysQuestionId, resultOfYesterdayId: self.resultOfYesterdayId)
             }
         })
                  // questionHeaderView.label.text = "What is this?"

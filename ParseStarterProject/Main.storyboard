@@ -31,7 +31,7 @@
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBN-Cd-RIF">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="376"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oD8-on-48p">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oD8-on-48p" customClass="BodyView" customModule="ParseStarterProject" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -78,6 +78,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bodyView" destination="oD8-on-48p" id="CLu-sQ-SNl"/>
                         <outlet property="headerView" destination="db6-rd-K6G" id="Ws6-iy-V8Z"/>
                     </connections>
                 </viewController>

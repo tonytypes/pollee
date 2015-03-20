@@ -14,8 +14,6 @@ class CheckForResponse: NSObject {
 
     func responseIsPresent(todaysQuestionId: String, completionHandler: ((Bool) -> Void)) {
         
-        
-        
         var resultQuery = PFQuery(className:"Response")
         resultQuery.whereKey("answeredFor", equalTo: PFObject(withoutDataWithClassName:"Question", objectId:todaysQuestionId))
         resultQuery.findObjectsInBackgroundWithBlock { (objects, error) -> Void in

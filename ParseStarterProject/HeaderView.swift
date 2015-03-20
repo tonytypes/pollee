@@ -12,26 +12,32 @@ class HeaderView: UIView {
 
     @IBOutlet var view: UIView!
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var questionLabel: UILabel!
 
     
-    func loadHeaderView(whatToShow: String, todaysQuestionId: String, resultOfYesterday: String) {
+    func loadHeaderView(whatToShow: String, todaysQuestionId: String, resultOfYesterdayId: String) {
         
         if whatToShow == "Question" {
             NSBundle.mainBundle().loadNibNamed("QuestionHeaderView", owner: self, options: nil)
             
             self.addSubview(self.view)
             self.view.frame = self.frame
-            // Run a Model that displays today's question, modifying code below
-            self.label.text = "This will display today's question"
+            
+            // Run a model that displays today's question
+            RetrieveTodaysQuestion().todaysQuestionQuestion(todaysQuestionId, completionHandler: {(todaysQuestionQuestion: String) -> Void in
+                self.label.text = todaysQuestionQuestion
+            })
         
         } else if whatToShow == "Result" {
             NSBundle.mainBundle().loadNibNamed("ResultHeaderView", owner: self, options: nil)
             
             self.addSubview(self.view)
             self.view.frame = self.frame
+            
             // Run a Model that displays yesterday's result, modifying code below
-            self.label.text = "This will display yesterday's result"
+            RetrieveResultOfYesterday().resultOfYesterdayQuestion(resultOfYesterdayId, completionHandler: {(resultOfYesterdayQuestion: String) -> Void in
+                self.label.text = resultOfYesterdayQuestion
+            })
+            
         }
      
         
